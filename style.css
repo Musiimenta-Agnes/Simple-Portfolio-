@@ -53,4 +53,16 @@ html{
     background-color: rgb(62, 69, 69);
 }
 
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(56, 23, 70);
+    position: static;
+ 
+   
+}
+
+.nav-link{
+    color: azure;
+}
 
