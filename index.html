@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="container">
     <header class="header">
         <div class="row">
             <div class="col"><img src="./images/logo.png" alt="logo" style="clip-path: circle(50% at 50% 50%); object-fit: cover; width: 70px; height: 70px; margin-left: 30px; padding-top: 0px;"></div>
@@ -40,6 +41,8 @@
 
         </div>
     </header>
+
+<!--The div holding everything in this first page with the background of black-->
     <div style=" width: 100%; border-style: solid 6px; background-color: rgb(0, 0, 0,0.8); height: 100%;">
   
         <br><br><br>
@@ -85,7 +88,7 @@
  <h1 class="display1">WEB & GRAPHIC</h1>
  <h1 class="display1">DESIGNER</h1>
  <div style="width: 300px;">
-    <p style="color: white; text-shadow: 0 0 30px blue;  ">Code is my passion my hobby and my best friend.</p>
+    <p style="color: white; text-shadow: 0 0 30px blue;  "> <span class="border border-bottom-0">Code is my passion my hobby and my best friend.</span></p>
     <a href="./pages/My CV.pdf" class="btn btn-outline-primary" >Download CV</a>
 
  </div>
@@ -101,7 +104,7 @@
     <div class="row">
 
         <!--First column--> 
-         <div class="col"  style="margin-left: 50px;">
+         <div class="col"  style="margin-left: 0px;">
              <div class="card">
                  <div class="card-body">
                      <p  style="width: 90%; color: white;">As a passionate and versatile web developer based in Wandegeya,
@@ -166,7 +169,8 @@
     <!--Second div-->
     <div class="col">
     
-        <img src="./images/first pic.jfif" alt="first" class="card-img-top" style="height: 200px; width: 300px; margin-left: 90px; transition: transform 0.3s ease;">
+        <img src="./images/first pic.jfif" alt="first" class="card-img-top  border border-bottom-0  btn btn-primary"
+         style="height: 200px; width: 300px; margin-left: 90px; transition: transform 0.3s ease;">
 
     </div>
 
@@ -228,6 +232,7 @@
     
     </div>
 
+</div>
 
     <script src="script.js"></script>
 </body>
