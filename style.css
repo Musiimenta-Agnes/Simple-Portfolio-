@@ -1,14 +1,4 @@
 
-
-@media (max-width: 768px) {
-
-    body {
-
-        background-color: lightgray;
-
-    } }
-
-
 html{
     scroll-behavior: smooth;
 }
