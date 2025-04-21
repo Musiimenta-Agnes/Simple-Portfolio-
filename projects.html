@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         .card {
-    width: 300px;
-    background-color: rgb(13, 8, 39);
-    height: 200px;
-    border-style: solid 5px;
+            width: 300px;
+            background-color: rgb(13, 8, 39);
+            height: 200px;
+            border-style: solid 5px;
+        }
+    .paragraph {
+    color: rgb(237, 245, 6);
+    text-align: center;
+font-family: serif;
+    font-size: larger;
+
 }
+
+
+a {
+    color: rgb(19, 198, 243);
+}
+
+a:hover {
+    color: rgb(231, 7, 7);
+}
+
+.pics li {
+    padding: 20px 30px;
+}
+li {
+    float: left;
+}
+
+
+.hover-enlarge {
+    transition: transform 0.1s ease;
+}
+.hover-enlarge:hover {
+    transform: scale(1.1);
+}
+      
     </style>
 
 
@@ -22,144 +55,242 @@
 
 
 <body>
-    
-<!--The div holding everything in this first page with the background of black-->
+
+    <!--The div holding everything in this first page with the background of black-->
     <div class="container-fluid"> <!--This is the class to make the page responsive to all screens-->
-    <div style=" width: 100%; border-style: solid 6px; background-color: rgb(0, 0, 0,0.8); height: 100%;">
-       
-        <header class="header">
-            <div class="row">
-                <div class="col"><img src="./images/logo.png" alt="logo" style="clip-path: circle(50% at 50% 50%); object-fit: cover; width: 70px; height: 70px; margin-left: 30px; padding-top: 0px;"></div>
-                <div class="col" style="color: white; font-family: 'Times New Roman'; font-weight: 900; padding-top: 20px; font-size: 30px; margin-right: 60px;">F <span  style="color: blueviolet;">R</span>ONT  <span style="color: blueviolet;">&</span> BAC <span  style="color: blueviolet;">K</span>END  <span style="color: blueviolet;">&hearts;</span></div>
-                <div class="col">
-                   <ul class="nav">
-                    <li  class="nav-item">
-                        <a href="https://web.whatsapp.com/" class="fab fa-whatsapp"  style="color: aqua; padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
-                    </li>
-                    <li  class="nav-item">
-                        <a href="https://www.linkedin.com/in/musiimenta-agnes-angel-40763832b/" class="fab fa-linkedin"  style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
-                    </li>
-                    <li  class="nav-item">
-                        <a href="https://github.com/Musiimenta-Agnes" class="fab fa-github"  style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
-                    </li>
-                    <li  class="nav-item">
-                        <a href="0742443850" class="fa fa-phone"  style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
-                    </li>
-                    <li  class="nav-item">
-                        <a href="musiimentaagnes9@gmail.com" class="fa fa-newspaper"  style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
-                    </li>
-    
-                   </ul>
-    
-                    </nav>
-    
+        <div style=" width: 100%; border-style: solid 6px;  height: 100%;">
+
+            <header class="header">
+                <div class="row">
+                    <div class="col"><img src="./images/logo.png" alt="logo"
+                            style="clip-path: circle(50% at 50% 50%); object-fit: cover; width: 70px; height: 70px; margin-left: 30px; padding-top: 0px;">
+                    </div>
+                    <div class="col"
+                        style="color: white; font-family: 'Times New Roman'; font-weight: 900; padding-top: 20px; font-size: 30px; margin-right: 60px;">
+                        F<span style="color: blueviolet;"> R</span>ONT <span style="color: blueviolet;">&</span> BAC
+                        <span style="color: blueviolet;">K</span>END <span style="color: blueviolet;">&hearts;</span>
+                    </div>
+                    <div class="col">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="https://web.whatsapp.com/" class="fab fa-whatsapp"
+                                    style="color: aqua; padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.linkedin.com/in/musiimenta-agnes-angel-40763832b/"
+                                    class="fab fa-linkedin"
+                                    style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/Musiimenta-Agnes" class="fab fa-github"
+                                    style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="0742443850" class="fa fa-phone"
+                                    style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="musiimentaagnes9@gmail.com" class="fa fa-newspaper"
+                                    style="color: aqua;   padding: 30px 20px; font-size: 20px; text-decoration: none;"></a>
+                            </li>
+
+                        </ul>
+
+                        </nav>
+
+                    </div>
+
                 </div>
-    
-            </div>
-        </header>
+            </header>
 
-        <br><br><br><br>
-     <!--My second division of the page-->   
-     <div class="row">
-
-        <!--First column--> 
-         <div class="col"   style="margin-left: 0px;">
-            
-             <div class="card">
-                 <div class="card-body">
-                     <p  style="width: 90%; color: white;">As a passionate and versatile web developer based in Wandegeya,
-                         I specialize in crafting seamless digital experiences by blending creativity with technical expertise.</p>
-                         <a href="./pages/my fruits business/index.html" class="btn btn-success"  style="margin-left: 60px; ">My fruits Business &hearts;</a>
- 
-                 </div>
+            <br><br><br><br>
                  
-             </div>
- 
-         </div>
- 
-         <!--Second column-->
-         <div class="col" >
-             <div class="card">
-                 <div class="card-body">
-                     <p style="width: 90%; color: white;" >I have a deep understanding of HTML, CSS, and JavaScript, ensuring that the websites
-                         I create are both functional and beautiful. </p>
-                     <a href="./pages/Go daddy website/index.html" class="btn btn-success"  style="margin-left: 60px;" id="skills">Go dady website &hearts;</a>
- 
-                 </div>
- 
-             </div>
- 
-         </div>
- 
-         <!--Third Column-->
-         <div class="col">
-             <div class="card">
-                 <div class="card-body">
-                     <p style="width: 90%; color: white;">Over the years, I’ve had the privilege of working on a variety of projects that demonstrate my 
-                        versatility and commitment to delivering high-quality solutions</p>
-                        <a href="./pages/witu/index.html" class="btn btn-success"  style="margin-left: 60px;"  id="projects">Witu Website &hearts;</a>
- 
-                 </div>
- 
-             </div>
-            
-             
-         </div>
- 
-     </div>
 
-     <br><br><br><br><br>
+            <!--My second division of the page-->
+            <div class="row">
 
-<!--Second page dividion-->
-<div class="row">
-    <!--First Column-->
-    <div class="col"  style="margin-left: 60px;">
-        <div style="width: 100%;">
-            <div class="card-body" style= "width :90%;">
-                <h1 class="display1">Graphic Design Expertise</h1>
-                <p style="color: beige;">My background in graphic design enhances my ability to develop visually striking websites and applications.
-                     I have an eye for design and an understanding of color theory, typography, and layout composition, which 
-                     I incorporate into all of my projects. Whether creating logos, custom icons, banners, or any other graphical
-                      element, I ensure that my designs are both creative and functional, aligning perfectly with the client’s 
-                      brand identity.</p>
+                <!--First column-->
+                <div class="col" style="margin-left: 0px;">
+
+
+                           
+                    <div class="card">
+                        <div class="card-body">
+                            <p style="width: 90%; color: white;">As a passionate and versatile web developer based in
+                                Wandegeya,
+                                I specialize in crafting seamless digital experiences by blending creativity with
+                                technical expertise.</p>
+                            <a href="./pages/my fruits business/index.html" class="btn btn-success"
+                                style="margin-left: 60px; ">My fruits Business &hearts;</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--Second column-->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p style="width: 90%; color: white;">I have a deep understanding of HTML, CSS, and
+                                JavaScript, ensuring that the websites
+                                I create are both functional and beautiful. </p>
+                            <a href="./pages/Go daddy website/index.html" class="btn btn-success"
+                                style="margin-left: 60px;" id="skills">Go dady website &hearts;</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--Third Column-->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p style="width: 90%; color: white;">Over the years, I’ve had the privilege of working on a
+                                variety of projects that demonstrate my
+                                versatility and commitment to delivering high-quality solutions</p>
+                            <a href="./pages/witu/index.html" class="btn btn-success" style="margin-left: 60px;"
+                                id="projects">Witu Website &hearts;</a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <br><br><br><br><br>
+
+            <!--Second page dividion-->
+            <div class="row">
+                <!--First Column-->
+                <div class="col" style="margin-left: 60px;">
+                    <div style="width: 100%;">
+                        <div class="card-body" style="width :90%;">
+                            <h1 class="display1">Graphic Design Expertise</h1>
+                            <p style="color: beige;">My background in graphic design enhances my ability to develop
+                                visually striking websites and applications.
+                                I have an eye for design and an understanding of color theory, typography, and layout
+                                composition, which
+                                I incorporate into all of my projects. Whether creating logos, custom icons, banners, or
+                                any other graphical
+                                element, I ensure that my designs are both creative and functional, aligning perfectly
+                                with the client’s
+                                brand identity.</p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Second column-->
+
+                <div class="card" style="margin-right: 90px; width: 400px;">
+                    <div class="card-body">
+                        <p style="width: 90%; color: white;">Over the years, I’ve had the privilege of working on a
+                            variety of projects that demonstrate my
+                            versatility and commitment to delivering high-quality solutions</p>
+                        <a href="./pages/My Graphics Portifolio.pdf" class="btn btn-success"
+                            style="margin-left: 60px; ">Graphics Portfolio &hearts;</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <form action="form">
+                <div class="paragraph">
+                    <h1  style="color: white;  text-decoration: underline;">Summury of my Projects</h1>
+                    <br> <b>
+                   
+                <p>
                 
-        
-            </div>
-        
+                
+                <br  style="font-family: serif;">
+                <div>
+                I am excited to share some of the projects that showcase the skills I've developed. 
+                <br>This collection includes a variety of works, such as graphic design projects, Python code snippets, HTML files, and many more. 
+                <br>Each project represents a step in my journey of growth and learning, and I am proud to see how much I have evolved.
+                <br>
+                
+                As you explore these works, you will get a glimpse into my passion for creating, problem-solving, and continuously improving.
+                <br> I am always working on manifesting even more ideas, projects, and innovations to further my development in these areas. 
+                <br>Enjoy browsing through my creations, and feel free to explore the diverse range of skills I've cultivated so far.
+                <br>
+                Thank you for taking the time to dive into my work—this is just the beginning.
+                <br> I look forward to what the future holds as I continue to grow and refine my craft
+                </div>
+                
+                <br>
+                <p>Follow this link to view my graphics designs. <a href="./My Graphics Portifolio.pdf"  class="a">Graphics Projects</a></p>
+                
+                </p>
+                
+                </div>
+                <br><br>
+                <h2 style="color: white;">Click this link to take you to my Witu  practice website. <span><a href="./pages/witu/index.html">Witu practice website</a></span></h2>
+                <h2 style="color: white;">Click this link to take you to my Fruits Business website. <span><a href="./pages/my fruits business/index.html">Fruits Business</a></span></h2>
+                <h2 style="color: white;">Theses are some of my website projects.  <span><a href="../Go daddy website/index.html">GoDaddy Website</a></span></h2>
+                <h2 style="color: white;">Click this link to take you to my restaurant's website. <span><a href="../Agie's restaurant linking project/index.html">Agie's Restaurant</a></span></h2>
+                <h2 style="color: white;">Click this link to take you to my web practice website. <span><a href="../Practice Management website/index.html">Web practice website</a></span></h2>
+                
+                 <h2><b>THE LATEST PROJECTS</b></h2>
+                
+                <div class="pics">
+                <nav>
+                    <li>
+                        <img src="./images/1st flyer.JPG" height="400px" width="300px"  class="hover-enlarge" alt="">
+                    </li>
+                
+                    <li>
+                        <img src="./images/Pepsi pic.JPG" height="400px" width="300px"   class="hover-enlarge" alt="">
+                    </li>
+                
+                    <li>
+                        <img src="./images/4th flyer.JPG" height="400px" width="300px"  class="hover-enlarge" alt="">
+                    </li>
+                
+                    <li>
+                        <img src="./images/Bobi poster pic good.JPG"   height="400px" width="300px"   class="hover-enlarge" alt="">
+                    </li>
+                
+                    <li>
+                        <img src="./images/My poster.png"   height="400px" width="300px"  class="hover-enlarge" alt="">
+                    </li>
+                
+                    <li>
+                        <img src="./images/3rd flyer.JPG"   height="400px" width="300px"   class="hover-enlarge" alt="">
+                    </li>
+                </nav>
+                </div>
+                
+                <br><br>
+                
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
+
     </div>
-
-    <!--Second column-->
-   
-        <div class="card" style="margin-right: 90px; width: 400px;">
-            <div class="card-body">
-                <p style="width: 90%; color: white;">Over the years, I’ve had the privilege of working on a variety of projects that demonstrate my 
-                   versatility and commitment to delivering high-quality solutions</p>
-                   <a href="./pages/My Graphics Portifolio.pdf" class="btn btn-success"  style="margin-left: 60px; ">Graphics Portfolio &hearts;</a>
-
-            </div>
-        
-    </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     </div>
-</div>
 </body>
+
 </html>
