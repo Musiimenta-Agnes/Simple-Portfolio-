@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(./images/green\ bac.jfif);
+    background-image: url(./images/white\ bac.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@ body {
     font-size: 50px;
     color: blueviolet;
     font-family:  'Times New Roman';
-    text-shadow: 0 0 30px blue;
+    text-shadow: 0 0 3px blue;
 
 }
 
@@ -29,10 +29,20 @@ body {
 
 .card {
     width: 300px;
-    background-color: rgb(13, 8, 39);
+    background-color: aliceblue;
+    color: black;
     height: 200px;
+    
     border-style: solid 5px;
     transition: transform 0.3s ease;
+   
+
+    /* border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: perspective(800px) rotateX(5deg);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; */
 
 }
 
@@ -68,6 +78,6 @@ body {
 }
 
 .nav-link{
-    color: azure;
+    color: black;
 }
 
