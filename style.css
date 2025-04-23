@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(./images/white\ bac.jfif);
+    background-image: url(./images/bright\ bac.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -79,5 +79,6 @@ body {
 
 .nav-link{
     color: black;
+    
 }
 
