@@ -55,9 +55,10 @@
                 </div>
 
                 <div class="col">
-                    <a   class="btn btn-warning"  style=" width: 150px;margin-left: 100px; 
+                    <a   class="btn btn-warning"   id="contactbtn" style=" width: 150px;margin-left: 100px; 
                   background-color: rgba(52, 152, 219, 0.4);
                   border: 2px solid rgba(52, 152, 219, 0.7);
+                  animation: pulse 2s ease-in-out infinite;
                    margin-top: 25px; " href="./pages/contact.html">Contact Me</a>
 
                 </div>
@@ -115,9 +116,11 @@
 
 
                     <br><br>
+                 <!--This is the div handles the code which is being used by JavaScript to make auto typing of the words-->
+                    <div id="myText" class="text"> </div>      
 
-                    <h1 class="display1"  style="text-align: center;">WEB & GRAPHIC</h1>
-                    <h1 class="display1" style="text-align: center;">DESIGNER</h1>
+                    <br><br>
+
                     <div style="width: 300px;">
                         <p style="color: black; text-shadow: 0 0 1px blue; text-align: center;  "> <span
                                 class="border border-bottom-0">Code is my passion my hobby and my best friend.</span>
@@ -127,6 +130,7 @@
                          background-color: rgba(52, 152, 219, 0.4);
                           color: black;
                          border: 2px solid rgba(52, 152, 219, 0.7);
+                         animation: pulse 2s ease-in-out infinite;
                         transition: 0.3s ease; ">Download CV</a>
 
                     </div>
@@ -153,6 +157,7 @@
                             background-color: rgba(52, 152, 219, 0.4);
                           color: black;
                          border: 2px solid rgba(52, 152, 219, 0.7);
+                         animation: pulse 2s ease-in-out infinite;
                             " id="about">About Me
                                 &hearts;</a>
 
@@ -174,6 +179,7 @@
                              background-color: rgba(52, 152, 219, 0.4);
                           color: black;
                          border: 2px solid rgba(52, 152, 219, 0.7);
+                         animation: pulse 2s ease-in-out infinite;
                              
                              " id="skills">My skills
                                 &hearts;</a>
@@ -195,6 +201,7 @@
                             background-color: rgba(52, 152, 219, 0.4);
                           color: black;
                          border: 2px solid rgba(52, 152, 219, 0.7);
+                         animation: pulse 2s ease-in-out infinite;
                             ">My projects
                                 &hearts;</a>
 
@@ -214,6 +221,7 @@
                 <div class="col">
                     <div style="width: 90%; margin-left: 60px; border-style: solid 3px; border-color: white;">
                         <h1 class="display1">Front-End Development</h1>
+                        
                         <p style="color: rgb(19, 17, 17);">My front-end development expertise lies in crafting
                             dynamic, interactive, and visually appealing user interfaces.
                             I have a deep understanding of <span class="text-success">HTML, CSS, and JavaScript</span> ,
@@ -315,6 +323,21 @@
         </div>
 
     </div>
+
+
+    
+  <script>
+    const slides = document.querySelectorAll('.slide');
+
+    window.addEventListener('scroll', () => {
+      slides.forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+          el.classList.add('active');
+        }
+      });
+    });
+  </script>
 
     <script src="script.js"></script>
 </body>
