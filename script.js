@@ -9,7 +9,7 @@ function type() {
   if (i < text.length) {
     element.textContent += text.charAt(i);
     i++;
-    setTimeout(type, 100); // 100ms delay between letters
+    setTimeout(type, 200); // 100ms delay between letters
   }
 }
 
