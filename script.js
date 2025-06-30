@@ -1,6 +1,6 @@
 
 // The code to allow automatic typing of words on page load
-const text = "WEB & GRAPHIC DESIGNER";
+const text = "FRONTEND & BACKEND | GRAPHIC DESIGNING";
 const element = document.getElementById("myText");
 let i = 0;
 
